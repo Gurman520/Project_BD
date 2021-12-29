@@ -60,7 +60,7 @@ class MyWidget(QMainWindow, Ui_BD):
 
     # Функция выполняющая соединение с БД
     def connect(self):
-        conn_str = "mongodb+srv://Roman:Rdfhnbhf142@cluster0.jjtq1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        conn_str = "mongodb+srv://Roman:[пароль]@cluster0.jjtq1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
         client = pm.MongoClient(conn_str)
         try:
             print()
